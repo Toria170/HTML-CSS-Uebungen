@@ -29,13 +29,16 @@ section {
   min-width: 10px;
   padding: 1rem 0;
   min-height: 300px;
+  display: flex;
+  align-items: stretch; /* regelt die Platzverteilung auf der y-achse*/
+  justify-content: right; /* regelt die Platzverteilung auf der x-achse*/
 }
 
 .col {
   min-width: 20px;
   min-height: 20px;
   margin: 10px;
-  width: 20%;
+  flex-grow: 1;
 }
 
 .trolley-grey {
